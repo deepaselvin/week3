@@ -37,7 +37,7 @@ public class loginServlet extends HttpServlet {
         	response.sendRedirect("home.jsp");
         }
         else {
-        	response.sendRedirect("index.jsp ? message=InValid Login Ceredentials");
+        	response.sendRedirect("index.jsp?message=InValid Login Ceredentials");
         }
 	}
 
